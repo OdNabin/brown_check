@@ -118,4 +118,17 @@ div.container{
   font-size: 21px;
   width: 90%;
 } 
+.heading_check{
+  font-size: 25px !important;
+}
+.pad{
+  padding:10px !important;
+}
+.cards {
+  margin-bottom: 15px !important;
+}
+.check{
+  margin-bottom:15px !important;
+  margin-top: 0px !important;
+  }
 }

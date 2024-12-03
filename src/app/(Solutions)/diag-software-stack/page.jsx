@@ -1,91 +1,143 @@
-"use client"; // Ensures the component is rendered on the client-side
-
-import React, { useEffect, useState } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
+"use client"
+import React, { useEffect, useState } from 'react'
+import { FaArrowRight, FaHome } from "react-icons/fa";
 const Page = () => {
-  const [loader, setLoader] = useState(false);
-
-  useEffect(() => {
-    setLoader(true);
-    AOS.init({
-      duration: 1000, // Animation duration in milliseconds
-      easing: 'ease-in-out', // Animation easing
-      once: true, // Whether animation should happen only once
-    });
-  }, []);
-
+  const [loader,setloader] = useState(false)
+  useEffect(()=>{
+    setloader(true)
+  })
   return (
     <div style={{overflow:"hidden"}}>
-      {
-        !loader ? (
-          <div className="loaderbox">
-            <div className="loader"></div>
-          </div>
-        ) : (
-          <div>
-            <div className="position-relative video-container" data-aos="fade-in">
-              <div className="embed-responsive embed-responsive-16by9">
-                <video
-                  className="embed-responsive-item"
-                  src="/bootloader.mp4"
-                  muted
-                  autoPlay
-                  loop
-                ></video>
-              </div>
-              <div
-                className="position-absolute w-100 h-100"
-                style={{ top: 0, left: 0, backgroundColor: "rgba(0, 0, 0, 0.5)" }}
-              ></div>
-              <div className="container sec position-absolute top-50 start-50 translate-middle text-center" data-aos="zoom-in">
-                <h1
-                  style={{ color: "#FFF", fontWeight: "500" }}
-                  className="about-data"
-                >
-                  DIAG SOFTWARE STACK
-                </h1>
-              </div>
+    {
+      !loader ? (
+        <div className="loaderbox">
+          <div className="loader"></div>
+        </div>
+      ) : (
+        <div>
+          <div className="position-relative video-container">
+            <div className="embed-responsive embed-responsive-16by9">
+              <video
+                className="embed-responsive-item"
+                src="/cm.mp4"
+                muted
+                autoPlay
+                loop
+              ></video>
             </div>
+            <div
+              className="position-absolute w-100 h-100"
+              style={{ top: 0, left: 0, backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+            ></div>
+            <div className="container sec position-absolute top-50 start-50 translate-middle text-center" data-aos="fade-up">
+              <h1
+                style={{ color: "#FFF", fontWeight: "500" }}
+                className="about-data"
+              >
+                  Fraud Detection
+              </h1>
+            </div>
+          </div>
 
-            <div className="container my-3">
-              <h2 className='text-center mb-3' data-aos="fade-up">DIAG SOFTWARE STACK</h2>
-
-              <p className="p" data-aos="fade-right">
-                Our UDS Protocol stack is designed to run on tiny microcontrollers with a low memory footprint supporting mandatory limited set of UDS services.
-              </p>
-              <p className="p" data-aos="fade-left">
-                Fully customizable to add new services according to customer requirements.
-              </p>
-              <p className="p" data-aos="fade-right">
-                It is compliant with ISO14229 standard and easily integrated with our CAN Stack.
-              </p>
-
-              <div className="row">
-                <div className="col-md-6" data-aos="fade-up">
-                  <h2 style={{ color: " #964B00" }}>Below are the main features of UDS Stack,</h2>
-                  <ul className='list-item'>
-                    <li>Low Memory Footprint</li>
-                    <li>Support of ECU Reprogramming</li>
-                    <li>Remote vehicle diagnostics</li>
-                    <li>Fault Detection</li>
-                    <li>Platform Independent</li>
-                    <li>Compliant with MISRA Standards</li>
-                    <li>Use with or without RTOS</li>
-                    <li>Contains UDS Client and UDS Server</li>
-                  </ul>
-                </div>
-                <div className="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-up">
-                  <img src="/ecu.jpg" style={{ width: '100%', borderRadius: '20px' }} />
-                </div>
+          <div className="container fraud-h my-3" data-aos="fade-up">
+            {/* <h2 className='text-center mb-3'>  Fraud Detection</h2> */}
+            <div className="row d-flex justify-content-center align-items-center">
+              <div className="col-md-6">
+                <h1 style={{color: "#964B00",fontSize:"60px"}}>  Fraud Detection</h1>
+                <h4>Automatic fraud detection for connected car security</h4>
+                <p className='p'>
+                  Fraud Detection identifies fraudulent activity in software-defined vehicles to minimize financial and reputational damages to manufacturers and their suppliers.
+                </p>
+              </div>
+              <div className="col-md-6">
+              <img src="/fraud.png" style={{ width: "100%", borderRadius: "20px" }} />
               </div>
             </div>
           </div>
-        )
-      }
+
+
+          <div className="container p-4">
+            <div className='text-center fraud-box'>
+             <div className='text-center'>
+             <h4 className='mb-4'>Why Fraud Detection?</h4>
+             <h1>Reduce the risk of fraud in software-defined vehicles</h1>
+             </div>
+            </div>
+          </div>
+
+
+          <div className="container p-4">
+            <diiv className="row cards-box">
+              <div className="col-md-4">
+              <div class="card" >
+<img src="https://img.freepik.com/free-photo/small-red-car-stack-increasing-coins_23-2147919114.jpg?t=st=1731086149~exp=1731089749~hmac=8fef2f24872fd1cf49e959a2a7e1973d75a8b13e216b7219a81fc68287f64518&w=996" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+<div class="card-body text-center">
+  <h4>Minimize financial and reputational damage</h4>
+  <p class="card-text">By shortening time to detection of fraudulent activity indicators within software-defined, connected vehicles.</p>
+</div>
+</div>
+              </div>
+              <div className="col-md-4">
+              <div class="card" >
+              <img src="https://img.freepik.com/free-photo/small-red-car-stack-increasing-coins_23-2147919114.jpg?t=st=1731086149~exp=1731089749~hmac=8fef2f24872fd1cf49e959a2a7e1973d75a8b13e216b7219a81fc68287f64518&w=996" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+<div class="card-body text-center">
+<h4>Uncover hidden scams in connected cars</h4>
+  <p class="card-text">Through the combination of use case engineering and machine learning techniques, powered by  brownedge technology’s SDV cyber security expertise.</p>
+</div>
+</div>
+              </div>
+              <div className="col-md-4">
+              <div class="card" >
+              <img src="https://img.freepik.com/free-photo/small-red-car-stack-increasing-coins_23-2147919114.jpg?t=st=1731086149~exp=1731089749~hmac=8fef2f24872fd1cf49e959a2a7e1973d75a8b13e216b7219a81fc68287f64518&w=996" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+<div class="card-body text-center">
+<h4>Real-time view of the fleet’s fraud posture</h4>
+  <p class="card-text">Continuous data monitoring and analysis present a real-time view of current fraud activity levels.</p>
+</div>
+</div>
+              </div>
+            </diiv>
+          </div>
+
+
+<div className="container p-4">
+ <h2 className='text-center'>Monitor and respond to vehicle fraud</h2>
+ <h4 className='text-center'>Enhance fraud and risk management</h4>
+ <div className="row ">
+  <p className='p'>
+  The potential for vehicle related fraud is constantly increasing, with the growth of software-defined vehicles on the road. Using  brownedge technology’s advanced algorithms and heuristics, stakeholders can pinpoint suspicious behaviors that point to warranty fraud, petrol theft, identification fraud, car theft and more.
+  </p>
+  <p className="p">
+   brownedge technology Fraud Detection quickly and accurately alerts stakeholders to potential misuse. The solution’s deep analysis capabilities and embedded fraud playbooks help stakeholders take decisive action before the financial consequences escalate and business performance is affected.
+  </p>
+
+  <div className="row my-5 d-flex justify-content-center  align-items-center">
+    <div className="col-md-6">
+   <h2>Control your fleet with real-time insights</h2>
+   <h5>With scalable, highly automated connected car security</h5>
+   <p className='p'>The Brownedgetechnologies  solution provides fraud detection based on pre-built scenarios and deep understanding of our customers’ needs. Data is ingested and analyzed in real-time to correlate with pre-built rules and investigation scenarios. Real-time alerts and notifications are sent out as needed. Best practices and playbooks are available in order to resolve the detected cases quickly and efficiently.</p>
     </div>
-  );
+    <div className="col-md-6">
+    <img src="https://img.freepik.com/free-photo/driver-checking-stock-market-his-phone-while-car_53876-98095.jpg?t=st=1731087805~exp=1731091405~hmac=0a2cd9e29b7e274ccdbad4c8983de720c4df622671311b0025084c310355929d&w=996" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
+    </div>
+  </div>
+
+  <div className="row">
+  <h2 className='text-center'>Leverage Brownedgetechnologies ’ vehicle fraud detection expertise</h2>
+  <h4 className='text-center'>Across an exponentially growing attack surface</h4>
+  <p className='p'>
+  Brownedgetechnologies  brings together years of comprehensive expertise in fraud detection, helping manufacturers and service providers understand their fraud risk, signs of misuse, and practical next steps for remediation.
+  </p>
+
+  </div>
+ </div>
+</div>
+         
+
+        </div>
+      )
+    }
+  </div>
+  )
 }
 
-export default Page;
+export default Page

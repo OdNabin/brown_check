@@ -628,3 +628,13 @@ img.blog-img{
 /* .container{
   overflow: hidden !important;
 } */
+.heading_check{
+  color: #964B00;
+  font-size: 55px !important;
+}
+.check{
+margin-top:50px !important;
+}
+.cards-box .card{
+  height: 450px;
+}

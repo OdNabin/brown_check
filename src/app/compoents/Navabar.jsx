@@ -126,11 +126,10 @@ const Navbar9 = () => {
                   Solutions
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
-        <Dropdown.Item href="/dms-algorithm">DMS - Algorithm / Computer Vision</Dropdown.Item>
-        <Dropdown.Item href="/ev">EV – TMS & BMS</Dropdown.Item>
-        <Dropdown.Item href="can-software">Can Stack Software</Dropdown.Item>
-        <Dropdown.Item href="/diag-software-stack">Diag Stack Software</Dropdown.Item>
-        <Dropdown.Item href="/bootloader-on-can">BootLoader Software</Dropdown.Item>
+        <Dropdown.Item href="/Fraud">  Fraud Detection</Dropdown.Item>
+        <Dropdown.Item href="/Ethernet">  Ethernet Switch Protection</Dropdown.Item>
+        <Dropdown.Item href="Vehicle_Infotainment">  In-Vehicle Infotainment Cyber Guard</Dropdown.Item>
+        {/* <Dropdown.Item href="/diag-software-stack">  Zone Control Unit Protection</Dropdown.Item> */}
       </Dropdown.Menu>
     </Dropdown>
               <NavItem>
