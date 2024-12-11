@@ -114,7 +114,7 @@ const Page = () => {
     <div className="col-md-6">
    <h2>Control your fleet with real-time insights</h2>
    <h5>With scalable, highly automated connected car security</h5>
-   <p className='p'>The Brownedgetechnologies  solution provides fraud detection based on pre-built scenarios and deep understanding of our customers’ needs. Data is ingested and analyzed in real-time to correlate with pre-built rules and investigation scenarios. Real-time alerts and notifications are sent out as needed. Best practices and playbooks are available in order to resolve the detected cases quickly and efficiently.</p>
+   <p className='p'>The Brown Edge Technology  solution provides fraud detection based on pre-built scenarios and deep understanding of our customers’ needs. Data is ingested and analyzed in real-time to correlate with pre-built rules and investigation scenarios. Real-time alerts and notifications are sent out as needed. Best practices and playbooks are available in order to resolve the detected cases quickly and efficiently.</p>
     </div>
     <div className="col-md-6">
     <img src="https://img.freepik.com/free-photo/driver-checking-stock-market-his-phone-while-car_53876-98095.jpg?t=st=1731087805~exp=1731091405~hmac=0a2cd9e29b7e274ccdbad4c8983de720c4df622671311b0025084c310355929d&w=996" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
@@ -122,10 +122,10 @@ const Page = () => {
   </div>
 
   <div className="row">
-  <h2 className='text-center'>Leverage Brownedgetechnologies ’ vehicle fraud detection expertise</h2>
+  <h2 className='text-center'>Leverage Brown Edge Technology ’ vehicle fraud detection expertise</h2>
   <h4 className='text-center'>Across an exponentially growing attack surface</h4>
   <p className='p'>
-  Brownedgetechnologies  brings together years of comprehensive expertise in fraud detection, helping manufacturers and service providers understand their fraud risk, signs of misuse, and practical next steps for remediation.
+  Brown Edge Technology  brings together years of comprehensive expertise in fraud detection, helping manufacturers and service providers understand their fraud risk, signs of misuse, and practical next steps for remediation.
   </p>
 
   </div>

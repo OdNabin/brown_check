@@ -53,10 +53,10 @@ const Page = () => {
               {/* <h2 className='text-center mb-3'>  Fraud Detection</h2> */}
               <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-md-6">
-                  <h1 className='heading_check'>Brownedgetechnologies in   Vehicle Infotainment Cyber Guard</h1>
+                  <h1 className='heading_check'>Brown Edge Technology in   Vehicle Infotainment Cyber Guard</h1>
                   <h4>Advanced Cyber Security for In-Vehicle Infotainment</h4>
                   <p className='p'>
-                  Brownedgetechnologies  In-Vehicle Infotainment Cyber Guard leverages Brownedgetechnologies ’s cutting-edge cyber security products to provide robust and adaptive security for the wide attack surface of IVI systems, ensuring resilience against evolving cyber threats.
+                  Brown Edge Technology  In-Vehicle Infotainment Cyber Guard leverages Brown Edge Technology ’s cutting-edge cyber security products to provide robust and adaptive security for the wide attack surface of IVI systems, ensuring resilience against evolving cyber threats.
                   </p>
                 </div>
                 <div className="col-md-6">
