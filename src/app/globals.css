@@ -630,13 +630,20 @@ img.blog-img{
 } */
 .heading_check{
   color: #964B00;
-  font-size: 55px !important;
+  font-size: 40px !important;
 }
 .check{
 margin-top:50px !important;
 }
 .cards-box .card{
   height: 450px;
+}
+.ox .card-body{
+  height: 220px;
+ 
+  display: grid;
+
+ 
 }
 
 .card {

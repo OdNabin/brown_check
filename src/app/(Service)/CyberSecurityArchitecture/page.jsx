@@ -44,7 +44,7 @@ const Page = () => {
                   style={{ color: "#FFF", fontWeight: "500" }}
                   className="about-data"
                 >
-                    Automotive Penetration Testing  
+                  Cyber Security Architecture Design 
                 </h1>
               </div>
             </div>
@@ -53,12 +53,12 @@ const Page = () => {
               {/* <h2 className='text-center mb-3'>  Fraud Detection</h2> */}
               <div className="row d-flex justify-content-center align-items-center">
                 <div className="col-md-6">
-                  <h1 className='heading_check'>  Automotive Penetration Testing</h1>
-                  <h4>World-class leaders in automotive
-cyber security pentesting, vulnerability
-research, and remediation</h4>
+                  <h1 className='heading_check'>Cyber Security Architecture Design</h1>
+                  <h4>Threat analysis & risk assessment
+for vehicle architectures, systems
+and components</h4>
                   <p className='p'>
-                  PlaxidityX experts identify vulnerabilities in vehicle software and hardware throughout the development lifecycle. Using reverse engineering, code review, fuzz testing and other methods, we perform ECU-level and vehicle-level pentesting as well as Alexa security certifications to help you comply with industry regulations and standards.
+                  PlaxidityX helps you ensure secure-by-design vehicle architectures by embedding robust cyber security from the early development stages. Using a holistic methodology compliant with ISO 21434 and ASPICE, our services cover TARA (Threat analysis & risk assessment), cyber security concept, security requirements specification and architecture review.
                   </p>
                 </div>
                 <div className="col-md-6">
@@ -71,22 +71,23 @@ research, and remediation</h4>
             <div className="container p-4">
               <div className='text-center fraud-box'>
                <div className='text-center'>
-               <h4 className='mb-4'>Why Brown edge technology Automotive Penetration Testing?</h4>
-               <h1>More than a decade of experience, hundreds of production projects with 100% success rate in penetration testing to strengthen your product’s security posture and comply with regulations</h1>
+               <h4 className='mb-4'>Why Brown edge technology for Cyber Security?</h4>
+               <h1>Get clear insight into your system’s security posture during development steps, fortifying your defenses with precision and foresight.</h1>
                </div>
               </div>
             </div>
 
 
-            <div class="container">
+            <div class="container ox">
     <h1 class="text-center mb-5">Services Offering</h1>
     <div class="row g-4 d-flex justify-content-center align-items-center">
         <div class="col-lg-4 col-md-6">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4>ECU-Level
-                    Penetration Testing</h4>
-                    <p>Strengthen ECU cyber security and comply with regulations</p>
+                    <h4>TARA and Security
+Concept
+ </h4>
+                    <p>Embed robust cyber security in the early design stage</p>
                 </div>
             </div>
         </div>
@@ -100,22 +101,27 @@ research, and remediation</h4>
         <div class="col-lg-4 col-md-6">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4>Vehicle-Level Penetration Testing
+                    <h4>Security
+Requirements
+ 
                     </h4>
-                    <p>Meet regulatory requirements and prepare for type approval</p>
+                    <p>Define requirements and guidelines for all vehicle security aspects</p>
                 </div>
             </div>
         </div>
         <div class="col-lg-4 col-md-6">
             <div class="card">
                 <div class="card-body text-center">
-                    <h4>Code Review</h4>
-                    <p>Analyze your codebase, identify vulnerabilities and flaws, and remediate
+                    <h4>Architecture
+Review
+ </h4>
+                    <p> 
+                    Final, pre-audit assessment of vehicle ecosystem
                     </p>
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+        {/* <div class="col-lg-4 col-md-6">
             <div class="card">
                 <div class="card-body text-center">
                     <h4>Fuzz Testing</h4>
@@ -132,34 +138,38 @@ research, and remediation</h4>
                     Ensure your Alexa integration meets AWS security requirements</p>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
 </div>
 
 
 <div className="container p-4">
-   <h2 className='text-center'>Monitor and respond to vehicle fraud</h2>
-   <h4 className='text-center'>Enhance fraud and risk management</h4>
+   <h2 className='text-center'>TARA and Security Concept</h2>
+   <h4 className='text-center'>Secure your vehicle
+   architectures by design</h4>
    <div className="row ">
     <p className='p'>
-    The potential for vehicle related fraud is constantly increasing, with the growth of software-defined vehicles on the road. Using  brownedge technology’s advanced algorithms and heuristics, stakeholders can pinpoint suspicious behaviors that point to warranty fraud, petrol theft, identification fraud, car theft and more.
+    PlaxidityX performs threat analysis & risk identification, categorization and assessment, supporting the creation of work products, with compliance to the regulation, for vehicle architectures, systems and components. Following the TARA, we define the security concept and goals including suggested mitigations and measures.
     </p>
+    <h2 className='text-center'>Security Requirements</h2>
+   <h4 className='text-center'>Put your security
+   concept into practice</h4>
     <p className="p">
-     brownedge technology Fraud Detection quickly and accurately alerts stakeholders to potential misuse. The solution’s deep analysis capabilities and embedded fraud playbooks help stakeholders take decisive action before the financial consequences escalate and business performance is affected.
+    Once the TARA and the security concept and goals are complete for all vehicle components and systems, PlaxidityX drafts and defines the cyber security requirements. These requirements are documented in the Security Requirements Specification and used to develop the security mechanisms.
     </p>
 
     <div className="row my-5 d-flex justify-content-center  align-items-center">
       <div className="col-md-6">
-     <h2>Control your fleet with real-time insights</h2>
-     <h5>With scalable, highly automated connected car security</h5>
-     <p className='p'>The Brown Edge Technology  solution provides fraud detection based on pre-built scenarios and deep understanding of our customers’ needs. Data is ingested and analyzed in real-time to correlate with pre-built rules and investigation scenarios. Real-time alerts and notifications are sent out as needed. Best practices and playbooks are available in order to resolve the detected cases quickly and efficiently.</p>
+     <h2>Architecture Review</h2>
+     <h5>Final check of your vehicle ecosystem</h5>
+     <p className='p'>To help you prepare for type approval, PlaxidityX conducts a comprehensive, pre-audit assessment of the planned vehicle’s E/E architecture and connected services infrastructure. We identify any remaining security gaps and suggest practical steps for remediation.</p>
       </div>
       <div className="col-md-6">
       <img src="/control.jpg" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
       </div>
     </div>
     <div className="container p-4">
-              <diiv className="row cards-box">
+              {/* <diiv className="row cards-box">
                 <div className="col-md-4">
                 <div class="card" >
   <img src="/damage.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
@@ -187,16 +197,16 @@ research, and remediation</h4>
   </div>
 </div>
                 </div>
-              </diiv>
+              </diiv> */}
             </div>
-    <div className="row">
+    {/* <div className="row">
     <h2 className='text-center'>Leverage Brown Edge Technology ’ vehicle fraud detection expertise</h2>
     <h4 className='text-center'>Across an exponentially growing attack surface</h4>
     <p className='p'>
     Brown Edge Technology  brings together years of comprehensive expertise in fraud detection, helping manufacturers and service providers understand their fraud risk, signs of misuse, and practical next steps for remediation.
     </p>
   
-    </div>
+    </div> */}
    </div>
 </div>
 

@@ -78,7 +78,7 @@ research, and remediation</h4>
             </div>
 
 
-            <div class="container">
+            <div class="container ox">
     <h1 class="text-center mb-5">Services Offering</h1>
     <div class="row g-4 d-flex justify-content-center align-items-center">
         <div class="col-lg-4 col-md-6">
@@ -138,21 +138,26 @@ research, and remediation</h4>
 
 
 <div className="container p-4">
-   <h2 className='text-center'>Monitor and respond to vehicle fraud</h2>
-   <h4 className='text-center'>Enhance fraud and risk management</h4>
+   <h2 className='text-center'>ECU-Level Penetration Testing</h2>
+   <h4 className='text-center'>Meet OEM and regulatory pentesting requirements</h4>
    <div className="row ">
     <p className='p'>
-    The potential for vehicle related fraud is constantly increasing, with the growth of software-defined vehicles on the road. Using  brownedge technology’s advanced algorithms and heuristics, stakeholders can pinpoint suspicious behaviors that point to warranty fraud, petrol theft, identification fraud, car theft and more.
+    Leveraging expert knowledge of automotive protocols, HW/SW, networks and interfaces, our ECU-level pentesting identifies and reports vulnerabilities in ECU interfaces, communication channels and security measures. We’ll help you strengthen your ECU cyber security while supporting your compliance process.
     </p>
+
+    <h2 className='text-center'>Vehicle-Level Penetration Testing</h2>
+    <h4 className='text-center'>Understand your vehicle’s
+    security posture</h4>
     <p className="p">
-     brownedge technology Fraud Detection quickly and accurately alerts stakeholders to potential misuse. The solution’s deep analysis capabilities and embedded fraud playbooks help stakeholders take decisive action before the financial consequences escalate and business performance is affected.
+    Aligned with UNR 155 requirements, vehicle-level pentesting identifies potential threats and vulnerabilities in the vehicle EE architecture that could be exploited to manipulate safety-critical components or break network segregation. This activity assures that OEMs are ready for vehicle type approval.
     </p>
 
     <div className="row my-5 d-flex justify-content-center  align-items-center">
       <div className="col-md-6">
-     <h2>Control your fleet with real-time insights</h2>
-     <h5>With scalable, highly automated connected car security</h5>
-     <p className='p'>The Brown Edge Technology  solution provides fraud detection based on pre-built scenarios and deep understanding of our customers’ needs. Data is ingested and analyzed in real-time to correlate with pre-built rules and investigation scenarios. Real-time alerts and notifications are sent out as needed. Best practices and playbooks are available in order to resolve the detected cases quickly and efficiently.</p>
+     <h2>Fuzz Testing</h2>
+     <h5>Scalable testing options for
+     ECUs and vehicles/systems</h5>
+     <p className='p'>PlaxidityX Fuzz testing combines proprietary technology with decades of research to enable automated, scalable and cost-effective pentesting. Our researchers find zero-day vulnerabilities and configuration errors over vehicle networks, protocolsand interfaces, while generating reports for error correction and type approval.</p>
       </div>
       <div className="col-md-6">
       <img src="/control.jpg" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
@@ -164,8 +169,8 @@ research, and remediation</h4>
                 <div class="card" >
   <img src="/damage.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
-    <h4>Minimize financial and reputational damage</h4>
-    <p class="card-text">By shortening time to detection of fraudulent activity indicators within software-defined, connected vehicles.</p>
+    <h4>Laser-focused on automotive</h4>
+    <p class="card-text">A team of automotive cyber security experts with extensive knowledge of ECUs, automotive use cases, standards and protocols.</p>
   </div>
 </div>
                 </div>
@@ -173,8 +178,9 @@ research, and remediation</h4>
                 <div class="card" >
                 <img src="/Uncover.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
-  <h4>Uncover hidden scams in connected cars</h4>
-    <p class="card-text">Through the combination of use case engineering and machine learning techniques, powered by  brownedge technology’s SDV cyber security expertise.</p>
+  <h4>Experience you
+  can rely on</h4>
+    <p class="card-text">Proven track record of 100% successful penetration testing projects for leading vehicle manufacturers and Tier 1s at the ECU and vehicle level.</p>
   </div>
 </div>
                 </div>
@@ -182,18 +188,19 @@ research, and remediation</h4>
                 <div class="card" >
                 <img src="/person-car.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
-  <h4>Real-time view of the fleet’s fraud posture</h4>
-    <p class="card-text">Continuous data monitoring and analysis present a real-time view of current fraud activity levels.</p>
+  <h4>One-stop-shop
+  security offering</h4>
+    <p class="card-text">Full suite of services to meet all your pentesting needs, as well as other V-model cyber security activities.</p>
   </div>
 </div>
                 </div>
               </diiv>
             </div>
     <div className="row">
-    <h2 className='text-center'>Leverage Brown Edge Technology ’ vehicle fraud detection expertise</h2>
-    <h4 className='text-center'>Across an exponentially growing attack surface</h4>
+    <h2 className='text-center'>Amazon Alexa Certification</h2>
+    <h4 className='text-center'>Enabling Alexa Voice Services (AVS) for OEMs</h4>
     <p className='p'>
-    Brown Edge Technology  brings together years of comprehensive expertise in fraud detection, helping manufacturers and service providers understand their fraud risk, signs of misuse, and practical next steps for remediation.
+    As an Amazon-certified security lab for Alexa integration, PlaxidityX conducts security assessments tailored to the AVS security requirements. We analyze and score your integration against each requirement, and prepare your report for submission to Amazon.
     </p>
   
     </div>
