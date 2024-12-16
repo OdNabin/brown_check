@@ -25,7 +25,7 @@ export const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-sm-6">
-          <Image src={logo} alt="Logo" style={{ width: 'auto', height: '100px' }} />
+          {/* <Image src={logo} alt="Logo" style={{ width: 'auto', height: '100px' }} /> */}
             <p>
               BROWNEDGE TECHNOLOGY, a category-defining engineering solutions
               firm redefining core engineering problems in the Smart
@@ -139,46 +139,38 @@ export const Footer = () => {
             <ul className="list-unstyled">
               <li>
                 <Link
-                  href={"/Instrument Clusters"}
+                  href={"/Fraud"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> DMS - Algorithm/Computer Vision
+                  <MdChevronRight />Fraud Detection
                 </Link>
               </li>
               <li>
                 <Link
-                  href={"/Instrument Clusters"}
+                  href={"/Ethernet"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Ev - TMS & BMS
+                  <MdChevronRight /> Ethernet Switch Protection
                 </Link>
               </li>
               <li>
                 <Link
-                  href={"/Instrument Clusters"}
+                  href={"/Vehicle_Infotainment"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Can Stack Software
+                  <MdChevronRight />In-Vehicle Infotainment Cyber Guard
                 </Link>
               </li>
               <li>
                 <Link
-                  href={"/Instrument Clusters"}
+                  href={"/zonecontrolunit"}
                   className="text-white text-decoration-none"
                 >
-                  <MdChevronRight /> Diag Stack Software
+                  <MdChevronRight /> Zone Control Unit
 
                 </Link>
               </li>
-              <li>
-                <Link
-                  href={"/Instrument Clusters"}
-                  className="text-white text-decoration-none"
-                >
-                  <MdChevronRight /> BootLoader Software 
-
-                </Link>
-              </li>
+           
             </ul>
           </div>
 

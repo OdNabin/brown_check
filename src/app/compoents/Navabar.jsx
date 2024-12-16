@@ -75,6 +75,19 @@ const Navbar9 = () => {
               </NavItem>
               <Dropdown as={NavItem} >
                 <Dropdown.Toggle as={NavLink} id="offeringDropdown">
+                  Services
+                </Dropdown.Toggle>
+                <Dropdown.Menu>
+        <Dropdown.Item href="/Penetrationtesting">Automotive Penetration Testing</Dropdown.Item>
+        <Dropdown.Item href="/CyberSecurityArchitecture">Cyber Security Architecture Design</Dropdown.Item>
+        <Dropdown.Item href="/UNRSecurityCompliance">UNR 155 and
+ISO 21434 Cyber
+Security Compliance</Dropdown.Item>
+        <Dropdown.Item href="/UNRMotorcycles">UNR 155 Compliance for Motorcycles</Dropdown.Item>
+      </Dropdown.Menu>
+    </Dropdown>
+              <Dropdown as={NavItem} >
+                <Dropdown.Toggle as={NavLink} id="offeringDropdown">
                   Offering
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
@@ -129,7 +142,7 @@ const Navbar9 = () => {
         <Dropdown.Item href="/Fraud">  Fraud Detection</Dropdown.Item>
         <Dropdown.Item href="/Ethernet">  Ethernet Switch Protection</Dropdown.Item>
         <Dropdown.Item href="Vehicle_Infotainment">  In-Vehicle Infotainment Cyber Guard</Dropdown.Item>
-        {/* <Dropdown.Item href="/diag-software-stack">  Zone Control Unit Protection</Dropdown.Item> */}
+        <Dropdown.Item href="/zonecontrolunit">  Zone Control Unit Protection</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
               <NavItem>

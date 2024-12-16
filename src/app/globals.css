@@ -638,3 +638,22 @@ margin-top:50px !important;
 .cards-box .card{
   height: 450px;
 }
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+h4 {
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  color: #555;
+}

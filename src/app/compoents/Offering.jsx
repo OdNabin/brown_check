@@ -77,19 +77,6 @@ const offerings = [
     delay: 800,
     link:"/system-validation"
   },
-  {
-    image: title,
-    title: "Mortgage / Title Insurance Service",
-    description: [
-      "Home loan origination and processing",
-      "Title search and examination",
-      "Title insurance issuance",
-      "Mortgage refinancing services"
-    ],
-    aos: "fade-left",
-    delay: 1000,
-    link:"/validation"
-  },
 ];
 
 const Offering = () => {
