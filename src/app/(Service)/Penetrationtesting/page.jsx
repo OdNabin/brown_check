@@ -29,7 +29,7 @@ const Page = () => {
               <div className="embed-responsive embed-responsive-16by9">
                 <video
                   className="embed-responsive-item"
-                  src="/cm.mp4"
+                  src="/service.mp4"
                   muted
                   autoPlay
                   loop
@@ -62,7 +62,7 @@ research, and remediation</h4>
                   </p>
                 </div>
                 <div className="col-md-6">
-                <img src="/fraud.png" style={{ width: "100%", borderRadius: "20px" }} />
+                <img src="/pent.png" style={{ width: "100%", borderRadius: "20px" }} />
                 </div>
               </div>
             </div>
@@ -160,14 +160,14 @@ research, and remediation</h4>
      <p className='p'>PlaxidityX Fuzz testing combines proprietary technology with decades of research to enable automated, scalable and cost-effective pentesting. Our researchers find zero-day vulnerabilities and configuration errors over vehicle networks, protocolsand interfaces, while generating reports for error correction and type approval.</p>
       </div>
       <div className="col-md-6">
-      <img src="/control.jpg" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
+      <img src="/fuzz.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
       </div>
     </div>
     <div className="container p-4">
               <diiv className="row cards-box">
                 <div className="col-md-4">
                 <div class="card" >
-  <img src="/damage.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+  <img src="/s1.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
     <h4>Laser-focused on automotive</h4>
     <p class="card-text">A team of automotive cyber security experts with extensive knowledge of ECUs, automotive use cases, standards and protocols.</p>
@@ -176,7 +176,7 @@ research, and remediation</h4>
                 </div>
                 <div className="col-md-4">
                 <div class="card" >
-                <img src="/Uncover.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+                <img src="/s2.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
   <h4>Experience you
   can rely on</h4>
@@ -186,7 +186,7 @@ research, and remediation</h4>
                 </div>
                 <div className="col-md-4">
                 <div class="card" >
-                <img src="/person-car.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+                <img src="/s3.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
   <h4>One-stop-shop
   security offering</h4>

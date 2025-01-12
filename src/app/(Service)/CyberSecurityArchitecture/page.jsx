@@ -29,7 +29,7 @@ const Page = () => {
               <div className="embed-responsive embed-responsive-16by9">
                 <video
                   className="embed-responsive-item"
-                  src="/cm.mp4"
+                  src="/service.mp4"
                   muted
                   autoPlay
                   loop
@@ -62,7 +62,7 @@ and components</h4>
                   </p>
                 </div>
                 <div className="col-md-6">
-                <img src="/fraud.png" style={{ width: "100%", borderRadius: "20px" }} />
+                <img src="/c1.png" style={{ width: "100%", borderRadius: "20px" }} />
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ Concept
         <div class="col-lg-4 col-md-6">
             <div class="card">
     <div class="card-body text-center">
-        <img src="/car-por.webp" alt="Car Image" style={{ width: "100%",height:"200px",objectFit:"cover" }} />
+        <img src="/c2.png" alt="Car Image" style={{ width: "100%",height:"200px",objectFit:"cover" }} />
     </div>
 </div>
         </div>
@@ -165,7 +165,7 @@ Review
      <p className='p'>To help you prepare for type approval, PlaxidityX conducts a comprehensive, pre-audit assessment of the planned vehicle’s E/E architecture and connected services infrastructure. We identify any remaining security gaps and suggest practical steps for remediation.</p>
       </div>
       <div className="col-md-6">
-      <img src="/control.jpg" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
+      <img src="/c3.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
       </div>
     </div>
     <div className="container p-4">

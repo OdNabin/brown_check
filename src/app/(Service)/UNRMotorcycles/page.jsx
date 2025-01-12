@@ -29,7 +29,7 @@ const Page = () => {
               <div className="embed-responsive embed-responsive-16by9">
                 <video
                   className="embed-responsive-item"
-                  src="/cm.mp4"
+                  src="/service.mp4"
                   muted
                   autoPlay
                   loop
@@ -60,7 +60,7 @@ const Page = () => {
                   </p>
                 </div>
                 <div className="col-md-6">
-                <img src="/fraud.png" style={{ width: "100%", borderRadius: "20px" }} />
+                <img src="/um1.png" style={{ width: "100%", borderRadius: "20px" }} />
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ and Compliance
         <div class="col-lg-4 col-md-6">
             <div class="card">
     <div class="card-body text-center">
-        <img src="/car-por.webp" alt="Car Image" style={{ width: "100%",height:"200px",objectFit:"cover" }} />
+        <img src="/um2.png" alt="Car Image" style={{ width: "100%",height:"200px",objectFit:"cover" }} />
     </div>
 </div>
         </div>
@@ -164,14 +164,14 @@ Maintenance Framework
      <p className='p'>To help OEMs prepare their Cyber Security Case for vehicle type approval audit,  PlaxidityX collects and ensures proper documentation of all required evidence (e.g.,CIA agreements, TARA, Vulnerability Management Report, V&R Report) to establish compliance at the vehicle and ECU levels.</p>
       </div>
       <div className="col-md-6">
-      <img src="/control.jpg" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
+      <img src="/um3.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
       </div>
     </div>
     <div className="container p-4">
               <diiv className="row cards-box">
                 <div className="col-md-4">
                 <div class="card" >
-  <img src="/damage.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+  <img src="/um4.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
     <h4>Holistic
     understanding</h4>
@@ -181,7 +181,7 @@ Maintenance Framework
                 </div>
                 <div className="col-md-4">
                 <div class="card" >
-                <img src="/Uncover.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+                <img src="/um5.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
   <h4>Comprehensive
   compliance</h4>
@@ -191,7 +191,7 @@ Maintenance Framework
                 </div>
                 <div className="col-md-4">
                 <div class="card" >
-                <img src="/person-car.jpg" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
+                <img src="/um6.png" class="card-img-top" style={{height:"250px",width:"100%",objectFit:"cover",borderTopRightRadius:"20px",borderTopLeftRadius:"20px"}} alt="..."/>
   <div class="card-body text-center">
   <h4>Regulatory
   experts</h4>
