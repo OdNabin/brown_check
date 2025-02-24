@@ -58,7 +58,7 @@ const Page = () => {
 for vehicle architectures, systems
 and components</h4>
                   <p className='p'>
-                  PlaxidityX helps you ensure secure-by-design vehicle architectures by embedding robust cyber security from the early development stages. Using a holistic methodology compliant with ISO 21434 and ASPICE, our services cover TARA (Threat analysis & risk assessment), cyber security concept, security requirements specification and architecture review.
+                  Brown Edge Technology helps you ensure secure-by-design vehicle architectures by embedding robust cyber security from the early development stages. Using a holistic methodology compliant with ISO 21434 and ASPICE, our services cover TARA (Threat analysis & risk assessment), cyber security concept, security requirements specification and architecture review.
                   </p>
                 </div>
                 <div className="col-md-6">
@@ -149,20 +149,20 @@ Review
    architectures by design</h4>
    <div className="row ">
     <p className='p'>
-    PlaxidityX performs threat analysis & risk identification, categorization and assessment, supporting the creation of work products, with compliance to the regulation, for vehicle architectures, systems and components. Following the TARA, we define the security concept and goals including suggested mitigations and measures.
+    Brown Edge Technology performs threat analysis & risk identification, categorization and assessment, supporting the creation of work products, with compliance to the regulation, for vehicle architectures, systems and components. Following the TARA, we define the security concept and goals including suggested mitigations and measures.
     </p>
     <h2 className='text-center'>Security Requirements</h2>
    <h4 className='text-center'>Put your security
    concept into practice</h4>
     <p className="p">
-    Once the TARA and the security concept and goals are complete for all vehicle components and systems, PlaxidityX drafts and defines the cyber security requirements. These requirements are documented in the Security Requirements Specification and used to develop the security mechanisms.
+    Once the TARA and the security concept and goals are complete for all vehicle components and systems, Brown Edge Technology drafts and defines the cyber security requirements. These requirements are documented in the Security Requirements Specification and used to develop the security mechanisms.
     </p>
 
     <div className="row my-5 d-flex justify-content-center  align-items-center">
       <div className="col-md-6">
      <h2>Architecture Review</h2>
      <h5>Final check of your vehicle ecosystem</h5>
-     <p className='p'>To help you prepare for type approval, PlaxidityX conducts a comprehensive, pre-audit assessment of the planned vehicle’s E/E architecture and connected services infrastructure. We identify any remaining security gaps and suggest practical steps for remediation.</p>
+     <p className='p'>To help you prepare for type approval, Brown Edge Technology conducts a comprehensive, pre-audit assessment of the planned vehicle’s E/E architecture and connected services infrastructure. We identify any remaining security gaps and suggest practical steps for remediation.</p>
       </div>
       <div className="col-md-6">
       <img src="/c3.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />

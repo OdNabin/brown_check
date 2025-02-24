@@ -56,7 +56,7 @@ const Page = () => {
                   <h1 className='heading_check'>UNR 155 and ISO 21434 Cyber Security Compliance for Motorcycles</h1>
                   <h4>Achieve comprehensive automotive cyber security compliance for your motorcycles, scooters, and electric bicycles with customized processes, and expert guidance</h4>
                   <p className='p'>
-                  PlaxidityX helps motorcycles, OEMs and Tier 1s establish management systems mandated by UNR 155 or ISO 21434. With PlaxidityX CSMS and ISO 21434 consulting services, vehicle type approval support and cyber security maintenance framework, Two-Wheelers OEMs can achieve   comprehensive compliance.
+                  Brown Edge Technology helps motorcycles, OEMs and Tier 1s establish management systems mandated by UNR 155 or ISO 21434. With Brown Edge Technology CSMS and ISO 21434 consulting services, vehicle type approval support and cyber security maintenance framework, Two-Wheelers OEMs can achieve   comprehensive compliance.
                   </p>
                 </div>
                 <div className="col-md-6">
@@ -154,14 +154,14 @@ Maintenance Framework
    <h4 className='text-center'>Address demands from OEMs
    for ISO 21434 compliance</h4>
     <p className="p">
-    Part of the ISO 21434 committee, PlaxidityX has deep knowledge of the ISO 21434 regulation. We help Tier 1s analyze and build the required cyber security processes, including support for implementing Cybersecurity Interface Agreements (CIAs) and certification efforts.
+    Part of the ISO 21434 committee, Brown Edge Technology has deep knowledge of the ISO 21434 regulation. We help Tier 1s analyze and build the required cyber security processes, including support for implementing Cybersecurity Interface Agreements (CIAs) and certification efforts.
     </p>
 
     <div className="row my-5 d-flex justify-content-center  align-items-center">
       <div className="col-md-6">
      <h2>Vehicle Type Approval</h2>
      <h5>Build your cyber security case the right way</h5>
-     <p className='p'>To help OEMs prepare their Cyber Security Case for vehicle type approval audit,  PlaxidityX collects and ensures proper documentation of all required evidence (e.g.,CIA agreements, TARA, Vulnerability Management Report, V&R Report) to establish compliance at the vehicle and ECU levels.</p>
+     <p className='p'>To help OEMs prepare their Cyber Security Case for vehicle type approval audit,  Brown Edge Technology collects and ensures proper documentation of all required evidence (e.g.,CIA agreements, TARA, Vulnerability Management Report, V&R Report) to establish compliance at the vehicle and ECU levels.</p>
       </div>
       <div className="col-md-6">
       <img src="/um3.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
@@ -205,7 +205,7 @@ Maintenance Framework
     <h2 className='text-center'>Cyber Security Maintenance Framework</h2>
     <h4 className='text-center'>Maintain cyber security throughout the vehicle lifecycle</h4>
     <p className='p'>
-    UNR 155 mandates cyber security maintenance (CSM) throughout the vehicle lifecycle (up to 10 years). PlaxidityX supports OEMs in planning and implementing CSM-related tasks such as vulnerability scans, event monitoring, incident response, remediation, and delivery of new release.
+    UNR 155 mandates cyber security maintenance (CSM) throughout the vehicle lifecycle (up to 10 years). Brown Edge Technology supports OEMs in planning and implementing CSM-related tasks such as vulnerability scans, event monitoring, incident response, remediation, and delivery of new release.
 
 
     </p>

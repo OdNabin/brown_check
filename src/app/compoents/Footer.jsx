@@ -37,21 +37,25 @@ export const Footer = () => {
                 size={40}
                 style={{ backgroundColor: "#3b5998", padding: "8px" }}
               />
-              <FaInstagram
-                className=" m-3 border rounded-circle"
-                size={40}
-                style={{ backgroundColor: "#DD2A7B", padding: "8px" }}
-              />
+             <a href="https://www.instagram.com/brownedge_technology_pvt_ltd?igsh=MXc4bTdoMXZ3dGttcA==" target="_blank" rel="noopener noreferrer">
+  <FaInstagram
+    className="m-3 border rounded-circle"
+    size={40}
+    style={{ backgroundColor: "#DD2A7B", padding: "8px", color: "#fff" }}
+  />
+</a>
               <FaYoutube
                 className=" m-3 border rounded-circle"
                 size={40}
                 style={{ backgroundColor: "#FF0000", padding: "8px" }}
               />
-              <FaLinkedin
-                className=" m-3 border rounded-circle"
-                size={40}
-                style={{ backgroundColor: "#0072b1", padding: "8px" }}
-              />
+                       <a href="https://www.linkedin.com/company/brown-edge-technology11/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
+  <FaLinkedin
+    className="m-3 border rounded-circle"
+    size={40}
+    style={{ backgroundColor: "#DD2A7B", padding: "8px", color: "#fff" }}
+  />
+</a>
             </div>
           </div>
 

@@ -58,7 +58,7 @@ const Page = () => {
 cyber security pentesting, vulnerability
 research, and remediation</h4>
                   <p className='p'>
-                  PlaxidityX experts identify vulnerabilities in vehicle software and hardware throughout the development lifecycle. Using reverse engineering, code review, fuzz testing and other methods, we perform ECU-level and vehicle-level pentesting as well as Alexa security certifications to help you comply with industry regulations and standards.
+                  Brown Edge Technology experts identify vulnerabilities in vehicle software and hardware throughout the development lifecycle. Using reverse engineering, code review, fuzz testing and other methods, we perform ECU-level and vehicle-level pentesting as well as Alexa security certifications to help you comply with industry regulations and standards.
                   </p>
                 </div>
                 <div className="col-md-6">
@@ -157,7 +157,7 @@ research, and remediation</h4>
      <h2>Fuzz Testing</h2>
      <h5>Scalable testing options for
      ECUs and vehicles/systems</h5>
-     <p className='p'>PlaxidityX Fuzz testing combines proprietary technology with decades of research to enable automated, scalable and cost-effective pentesting. Our researchers find zero-day vulnerabilities and configuration errors over vehicle networks, protocolsand interfaces, while generating reports for error correction and type approval.</p>
+     <p className='p'>Brown Edge Technology Fuzz testing combines proprietary technology with decades of research to enable automated, scalable and cost-effective pentesting. Our researchers find zero-day vulnerabilities and configuration errors over vehicle networks, protocolsand interfaces, while generating reports for error correction and type approval.</p>
       </div>
       <div className="col-md-6">
       <img src="/fuzz.png" alt="" style={{width:"100%",height:"300px",borderRadius:"30px"}} />
@@ -200,7 +200,7 @@ research, and remediation</h4>
     <h2 className='text-center'>Amazon Alexa Certification</h2>
     <h4 className='text-center'>Enabling Alexa Voice Services (AVS) for OEMs</h4>
     <p className='p'>
-    As an Amazon-certified security lab for Alexa integration, PlaxidityX conducts security assessments tailored to the AVS security requirements. We analyze and score your integration against each requirement, and prepare your report for submission to Amazon.
+    As an Amazon-certified security lab for Alexa integration, Brown Edge Technology conducts security assessments tailored to the AVS security requirements. We analyze and score your integration against each requirement, and prepare your report for submission to Amazon.
     </p>
   
     </div>
